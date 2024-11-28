@@ -1,0 +1,42 @@
+.img-principal {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.paragrafo-conteudo{
+    font-family: "Arial";
+    text-align: center;
+
+}
+
+
+.btn-saida{
+    width: 100px;
+    align-self: center;
+    align-items: center;
+    
+}
+
+@media (min-width: 600px){
+    .img-principal{
+        width: 400px;
+    
+    }
+    .paragrafo-conteudo{
+        margin: 20px
+    }
+    .btn-saida{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        margin: 25px;
+    }
+}
